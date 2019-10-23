@@ -86,8 +86,8 @@ module.exports ={
 
                     // Inserts no banco
                         // TABELA 1      
-                        db.query('insert into ESTOQUE_MOVIMENTACAO (LOCCOD,PROCOD,MOVDAT,MOVQTD,MOVDOC,MOVMTV,FATCOD,FUNCOD) values(?,?,?,?,?,?,?,?) returning ID ',
-                        ['01',String(procod),new Date(),newQtd,'AJUSTE MOBILE','Baixa de Estoque','016','000001'], function(err, result) {
+                        db.query('insert into ESTOQUE_MOVIMENTACAO (LOCCOD,PROCOD,MOVDAT,MOVQTD,MOVDOC,MOVMTV,FATCOD,FUNCOD,MOVTIP,MOVESP) values(?,?,current_date,?,?,?,?,?,?,?) returning ID ',
+                        ['01',String(procod),newQtd,'AJUSTE MOBILE','','016','000001','A','AJU'], function(err, result) {
                         
         
                         if(result){
@@ -95,9 +95,9 @@ module.exports ={
                                 let parametros = 'insert into ESTOQUE_AJUSTE_MOVIMENTACAO (LOCCOD,PROCOD,AJUCOD,EAMQTD, '+
                                 ' EAMVLRCST,EAMPROPRC1,EAMDAT,EAMHOR,FUNCOD )' ;
 
-                            db.query(parametros+' values (?,?,?,?,?,?,?,?,?) returning ID',
-                                ['01',String(procod),'01',newQtd,0,0,new Date(),
-                                    new Date().getHours()+new Date().getMinutes(),
+                            db.query(parametros+' values (?,?,?,?,?,?,current_date,?,?) returning ID',
+                                ['01',String(procod),'01',newQtd,0,0,
+                                   String(new Date().getHours())+String(new Date().getMinutes()),
                                 '000001'],
                                 function(err,resposta){
 
