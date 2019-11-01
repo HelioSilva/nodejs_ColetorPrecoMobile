@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "node-firebird": "^0.8.6"
+    "node-firebird": "^0.8.6",
+    "node-windows": "^0.1.14"
   },
   "devDependencies": {
     "nodemon": "^1.19.4"

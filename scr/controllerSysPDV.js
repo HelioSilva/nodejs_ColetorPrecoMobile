@@ -26,6 +26,7 @@ module.exports ={
 
                 let {codBarras,newQtd} = req.body ;
                 codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                console.log(codBarras);
 
                 if (err)
                 throw err;
