@@ -14,19 +14,27 @@ const options = {
 module.exports ={
 
     async consultaProduto(req,res){
+
+        console.log('Consultando produto');
+
         let sql ='Select PRODUTO.PROCOD ,PRODUTO.PRODES ,PRODUTO.PROUNID ,PRODUTO.PROPRCVDAVAR , '+
            'ESTOQUE.ESTATU from PRODUTO,ESTOQUE,PRODUTOAUX '+
            'where PRODUTO.PROCOD = ESTOQUE.PROCOD AND '+
            'PRODUTO.PROCOD = PRODUTOAUX.PROCOD AND '+
            'PRODUTOAUX.PROCODAUX = ? ' ;
 
-           console.log(req.body);
+        let sql1 ='Select PRODUTO.PROCOD ,PRODUTO.PRODES ,PRODUTO.PROUNID ,PRODUTO.PROPRCVDAVAR , '+
+           'ESTOQUE.ESTATU from PRODUTO,ESTOQUE '+
+           'where PRODUTO.PROCOD = ESTOQUE.PROCOD AND '+
+           'PRODUTO.PROCOD = ? ' ; 
+
+
 
            Firebird.attach(options, function(err, db) {
 
                 let {codBarras,newQtd} = req.body ;
                 codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
-                console.log(codBarras);
+   
 
                 if (err)
                 throw err;
@@ -34,7 +42,6 @@ module.exports ={
                 db.query(sql,[codBarras],
                 function(err,rows){
 
-                    console.log(rows[0]);
 
                     if(rows != "undefined" && rows != null && rows.length != null
                     && rows.length > 0){
@@ -46,10 +53,31 @@ module.exports ={
                         })
 
                     }  else {
-                        return res.json({
-                            codigo:200,
-                            msg:'Nenhum produto encontrado!'
-                        })
+
+                        //Nao foi encontrado pelo codigo de barras
+
+                            //analisar o codigo interno
+                            db.query(sql1,[codBarras],
+                                function(err,rows){
+                                        
+                                    if(rows != "undefined" && rows != null && rows.length != null
+                                    && rows.length > 0){                    
+                                        return res.json({
+                                            codigo:100,
+                                            msg:'Consulta realizada com sucesso!',
+                                            dados:rows[0]
+                                        })
+                    
+                                    }  else {
+                                        return res.json({
+                                            codigo:200,
+                                            msg:'Nenhum produto encontrado!'
+                                        })
+                                    }              
+                                
+                                db.detach(); 
+                            });
+                
                     }              
                 
                     db.detach(); 
@@ -66,23 +94,25 @@ module.exports ={
 
         Firebird.attach(options, function(err, db) {
 
-            let {codBarras,newQtd} = req.body ;
+            let {prod,newQtd} = req.body ;
             let procod = '';
 
-            codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+            prod = "0".repeat(14 - String(prod).length) + prod;
     
             if (err)
                 throw err;
 
 
-                console.log("Solicitacao de Ajuste: barras "+codBarras);
+            console.log("Solicitacao de Ajuste: barras "+prod);
+            console.log("Qtd :" + newQtd);
 
 
-            db.query('select procod as pro from PRODUTOAUX where PROCODAUX = ?',[codBarras],
+            db.query('select procod as pro from PRODUTO where PROCOD = ?',[prod],
             function(err,rows){
                 
                 if(rows != "undefined" && rows != null && rows.length != null
                 && rows.length > 0){
+
                     procod = String(rows[0].PRO);
 
                     // Inserts no banco
