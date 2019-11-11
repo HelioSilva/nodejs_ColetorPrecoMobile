@@ -60,3 +60,53 @@ Stacktrace:   at System.Management.ManagementScope._Clone(ManagementScope scope,
 2019-11-07 15:49:15 - Send SIGINT 16144
 2019-11-07 15:49:15 - SIGINT to 16144 failed - Killing as fallback
 2019-11-07 15:49:15 - Finished apicoletorapp.exe
+2019-11-09 00:09:31 - Starting C:\Program Files\nodejs\node.exe  --harmony "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-windows\lib\wrapper.js" --file "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\Server.js" --log "API ColetorAPP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-11-09 00:09:31 - Started 2900
+2019-11-09 00:49:06 - Stopping apicoletorapp.exe
+2019-11-09 00:49:06 - ProcessKill 2900
+2019-11-09 00:49:08 - Found child process: 14148 Name: conhost.exe
+2019-11-09 00:49:08 - Found child process: 8344 Name: node.exe
+2019-11-09 00:49:08 - Stopping process 14148
+2019-11-09 00:49:08 - Send SIGINT 14148
+2019-11-09 00:49:08 - SIGINT to 14148 failed - Killing as fallback
+2019-11-09 00:49:08 - Stopping process 8344
+2019-11-09 00:49:08 - Send SIGINT 8344
+2019-11-09 00:49:08 - SIGINT to 8344 failed - Killing as fallback
+2019-11-09 00:49:08 - Stopping process 2900
+2019-11-09 00:49:08 - Send SIGINT 2900
+2019-11-09 00:49:08 - SIGINT to 2900 failed - Killing as fallback
+2019-11-09 00:49:08 - Finished apicoletorapp.exe
+2019-11-09 15:29:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-windows\lib\wrapper.js" --file "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\Server.js" --log "API ColetorAPP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-11-09 15:29:25 - Started 9140
+2019-11-11 09:54:44 - Stopping apicoletorapp.exe
+2019-11-11 09:54:44 - ProcessKill 9140
+2019-11-11 09:54:45 - Found child process: 4724 Name: conhost.exe
+2019-11-11 09:54:45 - Found child process: 15412 Name: node.exe
+2019-11-11 09:54:45 - Stopping process 4724
+2019-11-11 09:54:45 - Send SIGINT 4724
+2019-11-11 09:54:45 - SIGINT to 4724 failed - Killing as fallback
+2019-11-11 09:54:45 - Stopping process 15412
+2019-11-11 09:54:45 - Send SIGINT 15412
+2019-11-11 09:54:45 - SIGINT to 15412 failed - Killing as fallback
+2019-11-11 09:54:45 - Stopping process 9140
+2019-11-11 09:54:45 - Send SIGINT 9140
+2019-11-11 09:54:45 - SIGINT to 9140 failed - Killing as fallback
+2019-11-11 09:54:45 - Finished apicoletorapp.exe
+2019-11-11 09:54:48 - Starting C:\Program Files\nodejs\node.exe  --harmony "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-windows\lib\wrapper.js" --file "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\Server.js" --log "API ColetorAPP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-11-11 09:54:48 - Started 10664
+2019-11-11 09:55:38 - Stopping apicoletorapp.exe
+2019-11-11 09:55:38 - ProcessKill 10664
+2019-11-11 09:55:39 - Found child process: 10016 Name: conhost.exe
+2019-11-11 09:55:39 - Found child process: 10272 Name: node.exe
+2019-11-11 09:55:39 - Stopping process 10016
+2019-11-11 09:55:39 - Send SIGINT 10016
+2019-11-11 09:55:39 - SIGINT to 10016 failed - Killing as fallback
+2019-11-11 09:55:39 - Stopping process 10272
+2019-11-11 09:55:39 - Send SIGINT 10272
+2019-11-11 09:55:39 - SIGINT to 10272 failed - Killing as fallback
+2019-11-11 09:55:39 - Stopping process 10664
+2019-11-11 09:55:39 - Send SIGINT 10664
+2019-11-11 09:55:39 - SIGINT to 10664 failed - Killing as fallback
+2019-11-11 09:55:39 - Finished apicoletorapp.exe
+2019-11-11 09:55:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-windows\lib\wrapper.js" --file "E:\_Projetos WEB\ConsultaPrecoAPP\backNode\Server.js" --log "API ColetorAPP wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-11-11 09:55:40 - Started 13704

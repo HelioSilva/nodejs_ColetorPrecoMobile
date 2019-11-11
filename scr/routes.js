@@ -15,6 +15,7 @@ router.use((req,res,next)=>{
 
 router.post('/cadastro',controler.alteraQTD);
 router.post('/consulta',controler.consultaProduto);
+router.post('/consultaNome',controler.listagemProdutos);
 
 
 module.exports = router ;

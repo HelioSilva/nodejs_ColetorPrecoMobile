@@ -72,4 +72,213 @@ TypeError: Cannot read property 'send' of null
     at monitor (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-windows\lib\wrapper.js:99:17)
     at ChildProcess.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-windows\lib\wrapper.js:170:5)
     at ChildProcess.emit (events.js:198:13)
-    at Process.ChildProcess._handle.onexit (inxit (in
+    at Process.ChildProcess._handle.onexit (inxit (inE:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79
+                codBarras = "0".repeat(14 - String(codBarras).length) + codBarras;
+                                ^
+
+RangeError: Invalid count value
+    at String.repeat (<anonymous>)
+    at E:\_Projetos WEB\ConsultaPrecoAPP\backNode\scr\controllerSysPDV.js:79:33
+    at cb (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:3197:13)
+    at doCallback (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:1238:5)
+    at Socket.<anonymous> (E:\_Projetos WEB\ConsultaPrecoAPP\backNode\node_modules\node-firebird\lib\index.js:2933:17)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)

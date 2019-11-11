@@ -13,6 +13,49 @@ const options = {
 
 module.exports ={
 
+    async listagemProdutos(req,res){
+        console.log('Listagem de Produtos...');
+
+        let sql = 'Select PRODUTO.PROCOD ,PRODUTO.PRODES FROM PRODUTO WHERE PRODUTO.PRODES like ? ' ;
+
+        Firebird.attach(options, function(err, db) {
+
+            let {descricao} = req.body ;
+
+            if (err)
+            throw err;
+
+            db.query(sql,['%'+descricao+'%'],
+            function(err,rows){
+
+
+                if(rows != "undefined" && rows != null && rows.length != null
+                && rows.length > 0){
+
+                    return res.json({
+                        codigo:100,
+                        msg:'Consulta realizada com sucesso!',
+                        dados:rows
+                    })
+
+                }  else {
+
+                    return res.json({
+                        codigo:200,
+                        msg:'Nenhum produto encontrado!'
+                    })
+            
+                }              
+            
+                db.detach(); 
+            });
+
+
+
+       });
+
+    },
+
     async consultaProduto(req,res){
 
         console.log('Consultando produto');
