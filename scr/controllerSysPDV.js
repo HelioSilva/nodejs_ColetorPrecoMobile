@@ -137,8 +137,11 @@ module.exports ={
 
         Firebird.attach(options, function(err, db) {
 
+            console.log(req.body)
+
             let {prod,newQtd} = req.body ;
             let procod = '';
+     
 
             prod = "0".repeat(14 - String(prod).length) + prod;
     
